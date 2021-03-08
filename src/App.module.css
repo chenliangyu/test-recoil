@@ -1,0 +1,17 @@
+.page {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.left {
+  flex: 0 0 auto;
+  width: 600px;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+}
+.right {
+  margin-left: 10px;
+  width: 600px;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+}

@@ -1,0 +1,54 @@
+.todoList {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.actionBar {
+  padding: 10px;
+  flex: 0 0 auto;
+}
+.button {
+  margin-right: 10px;
+}
+
+.list {
+  flex: 1 1 auto;
+  border-top: 1px solid #d1d1d1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.header {
+  display: flex;
+  flex: 0 0 auto;
+  height: 32px;
+  border-bottom: 1px solid #d1d1d1;
+}
+.body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+}
+.row {
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+}
+.row:hover {
+  color: #1890ff;
+}
+.odd {
+  background: #dedede;
+}
+.keyCell {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  width: 400px;
+}
+.titleCell {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  width: 200px;
+}
